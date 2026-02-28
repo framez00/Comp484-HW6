@@ -1,26 +1,48 @@
 /* Color Palette
-# - color 1
-# - color 2
-# - color 3
-# - color 4
+# - #F5F5F5 Off white
+# - #3A3F44 Grey (header, footer)
+# - #FFFFFF White (work)
+# - #E8E8E8 Light grey (education)
 */
 
 /* Global styles 
 ------------------------------------*/
 body {
-    /*background: lightblue;*/
+    background-color: #F5F5F5;
+    color: #1C1C1C;
 }
 
 
 /* Header & Footer 
 ------------------------------------*/
-
+header, footer {
+    background-color: #3A3F44;
+    color: #FFFFFF;
+}
 
 
 /* Work Experience
 ------------------------------------*/
-
+.work {
+    background-color: #FFFFFF;
+    color: #1C1C1C;
+}
 
 
 /* Education
 ------------------------------------*/
+.education {
+    background-color: #E8E8E8;
+    color: #1C1C1C;
+}
+
+a {
+    color: #B03045;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #D14B5E;
+    text-decoration: underline;
+}
