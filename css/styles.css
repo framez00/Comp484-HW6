@@ -1,5 +1,5 @@
 /* Color Palette
-# - #F5F5F5 Off white
+# - #F5F5F5 Off white (body)
 # - #3A3F44 Grey (header, footer)
 # - #FFFFFF White (work)
 # - #E8E8E8 Light grey (education)
@@ -10,8 +10,27 @@
 body {
     background-color: #F5F5F5;
     color: #1C1C1C;
+    font-family: 'Open Sans', sans-serif;
 }
 
+h1, h2, h3 {
+    font-family: 'Playfair Display', serif;
+}
+
+h1 {
+    font-size: 3em;
+    font-weight: 900;
+}
+
+h2 {
+    font-size: 2em;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 1.5em;
+    font-weight: 500;
+}
 
 /* Header & Footer 
 ------------------------------------*/
@@ -32,7 +51,7 @@ header, footer {
 /* Education
 ------------------------------------*/
 .education {
-    background-color: #E8E8E8;
+    background-color: #DCDCDC;
     color: #1C1C1C;
 }
 
